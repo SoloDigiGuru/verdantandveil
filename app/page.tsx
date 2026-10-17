@@ -8,6 +8,7 @@ import { demoHours, demoServices } from "@/lib/demo-content";
 import { formatTime } from "@/lib/format";
 import type { OpeningHour, SalonService } from "@/lib/types";
 import styles from "./home.module.css";
+export const dynamic = "force-dynamic";
 
 async function getContent() {
   try {
